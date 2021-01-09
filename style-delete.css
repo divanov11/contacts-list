@@ -1,0 +1,89 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+}
+
+.container{
+	max-width: 428px;
+	margin: 0 auto;
+	background-color: #313438;
+	height: 100vh;
+}
+
+
+.hero{
+	color: white;
+	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);	
+	padding: 2em 0; 
+}
+
+.back-btn{
+	color: #fff;
+	font-size: 1.7em;
+	padding-left: 1em;
+}
+
+
+.hero-info{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.relationship-hero{
+	width: 5em;
+	text-align: center;
+	padding: .4em .5em;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+	margin: 0;
+}
+
+.friend{
+	background-color: #75A85E;
+}
+
+.delete-container{
+	background-color: #313438;
+	color: #fff;
+	text-align: center;
+}
+
+p{
+	padding-bottom: 2em;
+	color: #fff;
+}
+
+.delete-container{
+	padding: 2em 3.5em;
+}
+
+.delete-contact{
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	align-items: center;
+	padding: 1em 2em;
+	border-radius: 20px;
+	box-shadow:  6px 6px 12px #2d2f33, 
+             -6px -6px 12px #35393d;
+}
+
+.delete-button{
+	 background-color: #313438;
+	 border: none;
+	 color: #fff;
+	 font-size: 1.3em;
+	 padding-left: 1.5em;
+}
+
+.delete-icon{
+	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+	border-radius: 100px;
+	font-size: 1.5em;
+	padding: .5em;
+}

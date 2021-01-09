@@ -1,0 +1,108 @@
+body{
+	font-family: 'Inter', sans-serif;
+	margin: 0;
+}
+
+.container{
+	max-width: 428px;
+	margin: 0 auto;
+	background-color: #313438;
+	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	justify-content: space-evenly;
+	color: #fff;
+	background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+	padding: 2em 0;
+	align-items: center;
+}
+
+.contact-search{
+	font-size: 1.2em;
+	padding:.3em .3em;
+	border-radius: 100px;
+	border:1px solid white;
+	outline: none;
+}
+
+
+.contacts-library{
+	background: #313438;
+}
+
+.add{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+i{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.contact-name{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+.relationship{
+	color: #fff;
+	font-size: .8em;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+hr{
+	border: 1px solicontactd #494a4b;
+}
+
+.list__item{
+	list-style: none;
+}
+
+.relationship{
+	width: 6em;
+	text-align: center;
+	padding: .4em .5em;
+	border-radius: 100px;
+	border-top-left-radius: 0;
+}
+
+.friend{
+	background-color: #75A85E;
+}
+
+.family{
+	background-color: #47A660;
+}
+
+.work{
+	background-color:#4CAD78;
+}
+
+
+.contact-section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 1.5em;
+	transition: 0.3s;
+}
+
+.contact-section:hover{
+	background-color: #48494a;
+}
+
+.text{
+	padding-left: 1em;
+}
