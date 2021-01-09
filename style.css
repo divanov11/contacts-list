@@ -51,10 +51,6 @@ i{
 	font-size: 1.2em;
 }
 
-.relationship{
-	color: #fff;
-	font-size: .8em;
-}
 
 ul{
 	margin: 0;
@@ -71,25 +67,14 @@ hr{
 }
 
 .relationship{
+	color: #fff;
 	width: 6em;
 	text-align: center;
 	padding: .4em .5em;
 	border-radius: 100px;
 	border-top-left-radius: 0;
-}
-
-.friend{
 	background-color: #75A85E;
 }
-
-.family{
-	background-color: #47A660;
-}
-
-.work{
-	background-color:#4CAD78;
-}
-
 
 .contact-section{
 	display: flex;
